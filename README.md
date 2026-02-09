@@ -72,12 +72,6 @@ nestnepal/
 │   ├── marquee/
 │   ├── others/
 │   └── Footers/
-│       ├── Logo.png
-│       ├── logo2.png (gradient text)
-│       ├── gradient.png
-│       ├── color.png
-│       ├── dd.png (woman image)
-│       └── icon.png (workspace icons)
 ├── package.json
 ├── next.config.ts
 ├── tsconfig.json
