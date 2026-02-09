@@ -22,10 +22,10 @@ const Footer = () => {
         </div>
 
         {/* White Gradient Overlay */}
-        <div className='absolute inset-0 z-[1] bg-gradient-to-br from-white/60 via-white/10 to-transparent rounded-2xl' />
+        <div className='absolute inset-0 z-9 bg-gradient-to-br from-white/60 via-white/10 to-transparent rounded-2xl' />
 
         {/* Content */}
-        <div className='relative z-10 px-4 md:px-8 lg:px-16 py-8 lg:py-12'>
+        <div className='absolute w-full z-10 px-4 md:px-8 lg:px-16 py-8 lg:py-12'>
 
           {/* Top Section */}
           <div className='flex flex-col lg:flex-row justify-between items-start gap-8 mb-16 lg:mb-54'>
@@ -74,7 +74,7 @@ const Footer = () => {
         {/* Content */}
         <div className='relative z-10'>
           {/* Logo */}
-          <div className='mb-8'>
+          <div className='mb-12'>
             <Image
               src='/Footers/Logo.png'
               alt='Nest Nepal'
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className='flex flex-col gap-3.5 text-white mb-8'>
+          <div className='flex flex-col gap-3.5 text-white mb-12'>
             <Link href='#' className='text-base hover:underline'>Google Workspace</Link>
             <Link href='#' className='text-base hover:underline'>Why google workspace?</Link>
             <Link href='#' className='text-base hover:underline'>Pricing</Link>
