@@ -22,7 +22,7 @@ const ImageSection = () => {
           </div>
 
           <div className='relative flex justify-center lg:justify-end'>
-            <div className='relative w-[360px] h-[360px] lg:w-[590px] lg:h-[420px] right-0 lg:translate-x-35 lg:translate-y-10 translate-x-1 translate-y-24'>
+            <div className='relative w-[360px] h-[360px] lg:w-[590px] lg:h-[420px] right-0 lg:translate-x-35 lg:translate-y-13 translate-x-1 translate-y-24'>
               <Image
                 src='/Footers/color.png'
                 alt=''
@@ -36,7 +36,7 @@ const ImageSection = () => {
                 alt='Sales representative'
                 fill
                 sizes='(min-width: 1024px) 420px, (min-width: 640px) 360px, 280px'
-                className='object-contain -translate-y-10'
+                className='object-contain -translate-y-13'
               />
             </div>
           </div>
