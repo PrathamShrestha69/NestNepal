@@ -6,7 +6,7 @@ const PricingAndFeatures = () => {
   return (
     <div className='flex lg:flex-row flex-col mt-30 font-[Helvetica]'>
       {/* 1st column */}
-      <div className='flex flex-row'>
+      <div className='flex flex-row ml-20 lg:ml-0 px-5 lg:px-0'>
         <div className='items-center justify-center text-center '>
           <h1 className='text-3xl'>Starter</h1>
           <p className='lg:mt-10 mt-5 text-xl'>Rs.<span className='text-7xl'>499</span><span className='line-through decoration-2 decoration-red-500 text-zinc-500 text-4xl'>560</span></p>
@@ -19,7 +19,7 @@ const PricingAndFeatures = () => {
         <div className='border bodrer-[0.1vw] border-zinc-200 w-px h-full ml-20' />
       </div>
       {/* 2nd column */}
-      <div className='ml-25'>
+      <div className='lg:ml-25 mt-15 ml-10'>
         <div className='flex flex-col gap-3'>
           <h1 className='font-bold py-3'>Storage</h1>
           <div className='text-center flex flex-row items-center gap-5'>
@@ -81,7 +81,7 @@ const PricingAndFeatures = () => {
         </div>
       </div>
       {/* 3rd Column */}
-      <div className='ml-25'>
+      <div className='mt-15 lg:ml-25 ml-10'>
         <div className='flex flex-col gap-3'>
           <h1 className='font-bold py-3'>Collaborate</h1>
           <div className='text-center flex flex-row items-center gap-5'>

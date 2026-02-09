@@ -65,7 +65,7 @@ const FirstSection = () => {
             height={44} width={250} className='lg:hidden flex ' />
         </div>
         {/* desktop text */}
-        <div className='text-lg text-center lg:flex hidden mt-5'>
+        <div className='text-lg text-center lg:flex hidden mt-10'>
           <p>Everything Your Business Needs to Work Smarter. A complete Google</p>
         </div>
         <div className='text-lg text-center lg:flex hidden'>
