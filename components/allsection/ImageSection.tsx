@@ -36,7 +36,7 @@ const ImageSection = () => {
                 alt='Sales representative'
                 fill
                 sizes='(min-width: 1024px) 420px, (min-width: 640px) 360px, 280px'
-                className='object-contain -translate-y-13'
+                className='object-contain translate-y-13'
               />
             </div>
           </div>
