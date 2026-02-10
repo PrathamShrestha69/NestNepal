@@ -57,7 +57,7 @@ const Navbar = () => {
               </p>
             </div>
           </div>
-          <WhatsappButton text="Contact Sales"/>
+          <WhatsappButton text="Contact Sales" className='bg-[#E2F6E5] border-[#11A925] text-[#11A925] hover:bg-[#11A925] hover:text-white'/>
         </div>
         <div className='relative flex flex-col items-center lg:hidden mt-13'>
           <p className='text-[#F47191] text-2xl lg:text-3xl font-cursive font-extrabold bottom-0 translate-y-3'>Valentine Offer</p>

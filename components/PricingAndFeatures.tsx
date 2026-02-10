@@ -9,11 +9,14 @@ const PricingAndFeatures = () => {
       <div className='flex flex-row ml-20 lg:ml-0 px-5 lg:px-0'>
         <div className='items-center justify-center text-center '>
           <h1 className='text-3xl'>Starter</h1>
-          <p className='lg:mt-10 mt-5 text-xl'>Rs.<span className='text-7xl'>499</span><span className='line-through decoration-2 decoration-red-500 text-zinc-500 text-4xl'>560</span></p>
+          <p className='lg:mt-10 mt-5 text-xl gap-2'>Rs.<span className='text-7xl'>499</span><span className=
+            'relative text-zinc-500 text-4xl'>
+            <div className='h-[2px] w-16 rotate-[18deg] left-0  bg-red-700 absolute top-1/2  ' />
+            560</span></p>
           <p className='text-zinc-500 mt-5 lg:mt-10'>per user / month,</p>
           <p className='text-zinc-500'>1 year commitment <span className='text-blue-500'>&#9432;</span> </p>
           <div className='items-center justify-center ml-7 mt-5'>
-            <WhatsappButton text="Contact Sales" />
+            <WhatsappButton text="Contact Sales" className='bg-[#F2527726] border-[#F25277] text-[#F25277] hover:bg-[#f0174a] hover:text-white transition-all duration-300 ease-in-out    ' />
           </div>
         </div>
         <div className='border bodrer-[0.1vw] border-zinc-200 w-px h-full ml-20' />

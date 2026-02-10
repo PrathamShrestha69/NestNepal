@@ -3,13 +3,15 @@ import { Icon } from '@iconify/react'
 import Link from 'next/link'
 import React from 'react'
 
-const WhatsappButton = ({text}:{text: String}) => {
+type WhatsappButtonProps = { text: String, className: string }
+
+const WhatsappButton = ({ text, className }: WhatsappButtonProps) => {
   return (
-    <div><Link target='_blank' href={'https://wa.me/+9779864333517'}><button className='flex flex-row bg-[#E2F6E5] border border-[#11A925] text-[#11A925] py-2 px-3 rounded-xl gap-2 cursor-pointer items-center hover:bg-[#11A925] hover:text-white'>
-            <Icon icon="logos:whatsapp-icon" height={24} width={24} />
-            <p className=' mr-2 text-center'>{text}</p>
-          </button>
-          </Link></div>
+<Link target='_blank' href={'https://wa.me/+9779864333517'}><button className={`flex flex-row ${className}  border  py-2 px-3 rounded-xl gap-2 cursor-pointer items-center transition-all duration-300 ease-in-out   `}>
+      <Icon icon="logos:whatsapp-icon" height={24} width={24} />
+      <p className=' mr-2 text-center'>{text}</p>
+    </button>
+    </Link>
   )
 }
 
